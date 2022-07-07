@@ -17,7 +17,7 @@
 body{
     background: var(--Cream);
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -25,7 +25,7 @@ body{
 
 #container{
     width: 600px;
-    height: 450px;
+    min-height: 450px;
     background:white;
     display: flex;
     border-radius: 15px;
@@ -123,7 +123,7 @@ body{
         #banner{
             width: 340px;
             height: 240px;
-            background: url('/images/image-product-mobile.jpg');
+            background: url('images/image-product-mobile.jpg');
             background-size: cover;
             border-radius: 15px 15px 0 0;
         }
